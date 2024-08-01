@@ -53,7 +53,7 @@
         },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "S_PITCH "
+            "next_state": "disp_N "
         },
         "None ": {
             "fileName": "",
@@ -76,7 +76,7 @@
             "next_state": "S_TRANSFER "
         },
         "say_again": {
-            "fileName": "intro",
+            "fileName": "only_intro",
             "next_state": "S_PITCH "
         },
         "language_barrier": {
@@ -120,7 +120,7 @@
         },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "S_NI "
+            "next_state": "disp_NI "
         },
         "decline ": {
             "fileName": "",
@@ -208,7 +208,7 @@
     "S_NI": {
         "sec": "5",
         "fileName": "ni_rebuttal.wav",
-        "reb_state": true,
+        "reb_state": false,
         "qq_state": false,
         "Not_Interested ": {
             "fileName": "",
