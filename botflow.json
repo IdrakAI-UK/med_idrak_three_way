@@ -130,10 +130,6 @@
             "fileName": "",
             "next_state": "S_TRANSFER "
         },
-        "greetings ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        }, 
         "Not_Interested ": {
             "fileName": "",
             "next_state": "S_NI "
