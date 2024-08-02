@@ -57,7 +57,7 @@
         },
         "None ": {
             "fileName": "",
-            "next_state": "S_PITCH "
+            "next_state": "disp_N"
         },
         "BUSY ": {
             "fileName": "",
@@ -130,6 +130,10 @@
             "fileName": "",
             "next_state": "S_TRANSFER "
         },
+        "greetings ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
+        }, 
         "Not_Interested ": {
             "fileName": "",
             "next_state": "S_NI "
