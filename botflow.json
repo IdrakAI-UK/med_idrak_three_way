@@ -145,7 +145,12 @@
         "None ": {
             "fileName": "",
             "next_state": "disp_NI "
+        },
+        "language_barrier": {
+            "fileName": "",
+            "next_state": "disp_LBR "
         }
+        
     },
     "S_TRANSFER": {
         "sec": "3",
