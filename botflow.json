@@ -86,6 +86,10 @@
         "Not_Interested ": {
             "fileName": "",
             "next_state": "S_NI "
+        },
+        "already ": {
+            "fileName": "",
+            "next_state": "S_NI "
         }
 
     },
@@ -145,12 +149,7 @@
         "None ": {
             "fileName": "",
             "next_state": "disp_NI "
-        },
-        "language_barrier": {
-            "fileName": "",
-            "next_state": "disp_LBR "
         }
-        
     },
     "S_TRANSFER": {
         "sec": "3",
@@ -250,6 +249,10 @@
         "affirmation ": {
             "fileName": "",
             "next_state": "S_TRANSFER "
+        },
+        "already":{
+            "fileName": "",
+            "next_state": "disp_NI"
         },
         "None ": {
             "fileName": "",
