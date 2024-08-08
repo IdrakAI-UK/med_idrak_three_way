@@ -63,10 +63,6 @@
             "fileName": "",
             "next_state": "S_BUSY "
         },
-        "greetings ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        },
         "decline ": {
             "fileName": "",
             "next_state": "disp_DNQ "
@@ -89,7 +85,7 @@
         },
         "already ": {
             "fileName": "",
-            "next_state": "S_NI "
+            "next_state": "S_Already"
         }
 
     },
@@ -149,6 +145,10 @@
         "None ": {
             "fileName": "",
             "next_state": "disp_NI "
+        },
+        "already":{
+            "fileName": "",
+            "next_state": "S_Already"
         }
     },
     "S_TRANSFER": {
@@ -212,6 +212,60 @@
     "S_NI": {
         "sec": "5",
         "fileName": "ni_rebuttal.wav",
+        "reb_state": false,
+        "qq_state": false,
+        "Not_Interested ": {
+            "fileName": "",
+            "next_state": "disp_NI "
+        },
+        "DNC ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "scam ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "abusive ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        },
+        "BUSY ": {
+            "fileName": "",
+            "next_state": "disp_B "
+        },
+        "decline ": {
+            "fileName": "",
+            "next_state": "disp_DNQ "
+        },
+        "answering_machine ": {
+            "fileName": "",
+            "next_state": "disp_A "
+        },
+        "NotSpoke ": {
+            "fileName": "",
+            "next_state": "disp_NI "
+        },
+        "affirmation ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
+        },
+        "already":{
+            "fileName": "",
+            "next_state": "S_Already"
+        },
+        "None ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
+        },
+        "language_barrier": {
+            "fileName": "",
+            "next_state": "disp_LBR "
+        }
+    },
+    "S_Already": {
+        "sec": "5",
+        "fileName": "Already_Rebuttal.wav",
         "reb_state": false,
         "qq_state": false,
         "Not_Interested ": {

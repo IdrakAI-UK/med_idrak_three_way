@@ -1,9 +1,10 @@
 sound_device:
   input: 0 # your input device / vb out
   output: 1 #your output device/ vb in
-version: 3.0
+  interim_check: True
+version: 3.1
 os: 'linux'
-dated: '05/08/2024 @ 4:10 PM'
+dated: '08/08/2024 @ 5:40 PM'
 running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
 chrome_driver: 'chrome_driver/chromedriver.exe'
