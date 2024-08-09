@@ -21,11 +21,11 @@ age:
   low: 40
   high: 80
 dialer_details: # dialer thingss
-  company_name: 'Prime BPO'
-  url: 'https://lead3.dialerhosting.com' #you can change url if needed
-  user_id: '4001'
-  password: 'pbpo123'
+  company_name: 'Mars'
+  url: 'https://silkav1.dialerhosting.com' #you can change url if needed
+  user_id: '8100'
+  password: 'agent123'
   campaign_num: '2' # campaign xpath num in [2]
-  transfer: 7 # how to transfer
+  transfer: 9 # how to transfer
   pages: ["2","3","4"] #pages of dialer
-  preset: "D5" # like D5 etc
+  preset: "D1" # like D5 etc
