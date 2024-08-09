@@ -2,9 +2,9 @@ sound_device:
   input: 0 # your input device / vb out
   output: 1 #your output device/ vb in
   interim_check: True
-version: 3.1
+version: 5.0.0.3_a_Linux
 os: 'linux'
-dated: '08/08/2024 @ 5:40 PM'
+dated: '09/08/2024 @ 4: 11 PM'
 running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
 chrome_driver: 'chrome_driver/chromedriver.exe'
@@ -17,6 +17,9 @@ server_address:
   port: "9004"
   end_point: "transcribe_array"
   protocol: "http"
+age:
+  low: 40
+  high: 80
 dialer_details: # dialer thingss
   company_name: 'Prime BPO'
   url: 'https://lead3.dialerhosting.com' #you can change url if needed
