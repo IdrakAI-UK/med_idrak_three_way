@@ -2,13 +2,13 @@ sound_device:
   input: 0 # your input device / vb out
   output: 1 #your output device/ vb in
   interim_check: True
-company_name: 'Prime BPO'
+company_name: 'Ali Test'
 os: 'linux'
 version: '1.0.0.L_A'
 dated: '08/08/2024 @ 5:40 PM'
 running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
-chrome_driver: 'chrome_driver/chromedriver.exe'
+chrome_driver: ''
 no_response_time: 3.0
 pause_duration: 0.5
 block_size: 8000
