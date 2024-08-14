@@ -2,30 +2,16 @@ sound_device:
   input: 0 # your input device / vb out
   output: 1 #your output device/ vb in
   interim_check: True
-version: 5.0.0.3_a_Linux
+company_name: 'Prime BPO'
 os: 'linux'
-dated: '09/08/2024 @ 4: 11 PM'
+version: '1.0.0.L_A'
+dated: '08/08/2024 @ 5:40 PM'
 running_mode : 'TRY' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
 chrome_driver: 'chrome_driver/chromedriver.exe'
 no_response_time: 3.0
 pause_duration: 0.5
 block_size: 8000
-nlu_server: "148.251.195.218"
-server_address:
-  ip: "148.251.195.218"
-  port: "9004"
-  end_point: "transcribe_array"
-  protocol: "http"
 age:
   low: 40
   high: 80
-dialer_details: # dialer thingss
-  company_name: 'Mars'
-  url: 'https://silkav1.dialerhosting.com' #you can change url if needed
-  user_id: '8100'
-  password: 'agent123'
-  campaign_num: '2' # campaign xpath num in [2]
-  transfer: 9 # how to transfer
-  pages: ["2","3","4"] #pages of dialer
-  preset: "D1" # like D5 etc
