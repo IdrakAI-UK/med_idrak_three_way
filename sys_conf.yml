@@ -2,6 +2,7 @@ sound_device:
   input: 0 # your input device / vb out
   output: 1 #your output device/ vb in
   interim_check: True
+delay_th: 120
 company_name: 'Ali Test'
 os: 'linux'
 version: '1.0.5.L_A'
