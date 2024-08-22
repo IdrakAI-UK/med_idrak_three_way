@@ -9,6 +9,10 @@
             "fileName": "",
             "next_state": "disp_A "
         },
+        "abusive ": {
+            "fileName": "",
+            "next_state": "disp_DNC "
+        }, 
         "DNC ": {
             "fileName": "",
             "next_state": "disp_DNC "
@@ -82,6 +86,10 @@
         "already ": {
             "fileName": "",
             "next_state": "S_Already"
+        },
+        "interested ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
         }
 
     },
@@ -145,10 +153,14 @@
         "already":{
             "fileName": "",
             "next_state": "S_Already"
+        },
+        "interested ": {
+            "fileName": "",
+            "next_state": "S_TRANSFER "
         }
     },
     "S_TRANSFER": {
-        "sec": "3",
+        "sec": "4",
         "fileName": "transfer.wav",
         "reb_state": false,
         "qq_state": false,
@@ -241,7 +253,7 @@
         
     },
     "S_PREV_STATE": {
-        "sec": "5",
+        "sec": "1",
         "fileName": "",
         "reb_state": true,
         "qq_state": false
