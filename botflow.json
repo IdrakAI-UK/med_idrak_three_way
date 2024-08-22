@@ -195,6 +195,18 @@
         "DNQ ": {
             "fileName": "",
             "next_state": "disp_DNQ "
+        },
+        "Not_Interested":{
+            "fileName": "",
+            "next_state": "disp_NI "
+        },
+        "BUSY":{
+            "fileName" :"",
+            "next_state":"disp_B "
+        },
+        "already":{
+            "fileName": "",
+            "next_state": "disp_NI " 
         }
     },
     "S_BUSY": {
