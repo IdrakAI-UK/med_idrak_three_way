@@ -206,7 +206,7 @@
         },
         "Not_Interested":{
             "fileName": "",
-            "next_state": "disp_NI "
+            "next_state": "S_TRANSFER_REB"
         },
         "BUSY":{
             "fileName" :"",
@@ -215,6 +215,10 @@
         "decline":{
             "fileName" :"",
             "next_state": "S_TRANSFER_REB "
+        },
+        "idk_decline":{
+            "fileName":"",
+            "next_state" : "S_TRANSFER_REB " 
         }
     },
     "S_BUSY": {
