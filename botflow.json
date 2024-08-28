@@ -57,7 +57,11 @@
         },
         "None ": {
             "fileName": "",
-            "next_state": "disp_N"
+            "next_state": "S_TRANSFER "
+        },
+        "greetings":{
+            "fileName":"",
+            "next_state": "S_PITCH "
         },
         "BUSY ": {
             "fileName": "",
@@ -70,10 +74,6 @@
         "affirmation ": {
             "fileName": "",
             "next_state": "S_TRANSFER "
-        },
-        "say_again": {
-            "fileName": "",
-            "next_state": "S_PITCH "
         },
         "language_barrier": {
             "fileName": "",
@@ -94,7 +94,19 @@
         "idk_decline":{
             "fileName":"",
             "next_state" : "S_IDK" 
-        }
+        },
+        "calling_about":{
+             "fileName":"",
+            "next_state": "S_PITCH "
+        },
+        "where_are_you_calling_from":{
+            "fileName":"",
+           "next_state": "S_PITCH "
+       },
+       "who_are_you":{
+         "fileName":"",
+           "next_state": "S_PITCH "
+       }
 
     },
     "S_PITCH": {
@@ -145,10 +157,6 @@
         "Not_Interested ": {
             "fileName": "",
             "next_state": "S_NI "
-        },
-        "say_again": {
-            "fileName": "",
-            "next_state": "S_PITCH "
         },
         "None ": {
             "fileName": "",
