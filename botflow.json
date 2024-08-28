@@ -210,7 +210,7 @@
         },
         "BUSY":{
             "fileName" :"",
-            "next_state":"disp_B "
+            "next_state":"disp_CALLBK "
         },
         "decline":{
             "fileName" :"",
@@ -222,61 +222,17 @@
         }
     },
     "S_BUSY": {
-        "sec": "5",
+        "sec": "0",
         "fileName": "call_back_rebuttal.wav",
         "reb_state": false,
         "qq_state": false,
-        "Not_Interested ": {
+        "None ": {
             "fileName": "",
-            "next_state": "disp_NI "
-        },
-        "DNC ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "scam ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "abusive ": {
-            "fileName": "",
-            "next_state": "disp_DNC "
-        },
-        "BUSY ": {
-            "fileName": "",
-            "next_state": "disp_B "
-        },
-        "decline ": {
-            "fileName": "",
-            "next_state": "disp_DNQ "
-        },
-        "answering_machine ": {
-            "fileName": "",
-            "next_state": "disp_A "
+            "next_state": "disp_CALLBK "
         },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "disp_NI "
-        },
-        "affirmation ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        },
-        "already":{
-            "fileName": "",
-            "next_state": "S_Already"
-        },
-        "None ": {
-            "fileName": "",
-            "next_state": "S_TRANSFER "
-        },
-        "language_barrier": {
-            "fileName": "",
-            "next_state": "disp_LBR "
-        },
-        "idk_decline":{
-            "fileName":"",
-            "next_state" : "S_IDK" 
+            "next_state": "disp_CALLBK "
         }
         
     },
@@ -309,7 +265,7 @@
         },
         "BUSY ": {
             "fileName": "",
-            "next_state": "disp_B "
+            "next_state": "disp_CALLBK "
         },
         "decline ": {
             "fileName": "",
@@ -367,7 +323,7 @@
         },
         "BUSY ": {
             "fileName": "",
-            "next_state": "disp_B "
+            "next_state": "disp_CALLBK "
         },
         "decline ": {
             "fileName": "",
@@ -425,7 +381,7 @@
         },
         "BUSY ": {
             "fileName": "",
-            "next_state": "disp_B "
+            "next_state": "disp_CALLBK "
         },
         "decline ": {
             "fileName": "",
@@ -487,7 +443,7 @@
         },
         "BUSY ": {
             "fileName": "",
-            "next_state": "disp_B "
+            "next_state": "disp_CALLBK "
         },
         "decline ": {
             "fileName": "",
@@ -569,7 +525,7 @@
         },
         "BUSY":{
             "fileName" :"",
-            "next_state":"disp_B "
+            "next_state":"disp_CALLBK "
         },
         "decline":{
             "fileName" :"",
