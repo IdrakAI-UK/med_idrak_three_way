@@ -57,7 +57,7 @@
         },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "disp_NP "
+            "next_state": "S_PITCH "
         },
         "None ": {
             "fileName": "",
