@@ -57,7 +57,7 @@
         },
         "NotSpoke ": {
             "fileName": "",
-            "next_state": "S_PITCH "
+            "next_state": "S_PITCH"
         },
         "None ": {
             "fileName": "",
@@ -203,8 +203,8 @@
         }
     },
     "S_TRANSFER": {
-        "sec": "4",
-        "fileName": "transfer.wav",
+        "sec": "0",
+        "fileName": "Ahmm.wav",
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
