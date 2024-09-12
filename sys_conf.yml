@@ -7,7 +7,7 @@ mirror: 0
 company_name: 'Ali Test'
 os: 'linux'
 version: '5.2.0.L_A'
-dated: '11/09/2024 @ 12:05 PM'
+dated: '12/09/2024 @ 07:36 PM'
 running_mode : 'PRO' # if you have to run try.py make it "TRY" else "PRO"
 auto_unpause: True # its value should be True or False to make auto pause/unpause ; Pleae check the spelling and case; it should be exactly that I specified
 chrome_driver: ''
