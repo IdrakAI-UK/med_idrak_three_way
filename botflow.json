@@ -3,6 +3,7 @@
     "S_HELLO": {
         "sec": "6.0",
         "fileName": "hello.wav",
+        "smart_am_check": true,
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
@@ -38,6 +39,7 @@
         "sec": "6",
         "fileName": "intro",
         "reb_state": false,
+        "smart_am_check": true,
         "qq_state": false,
         "answering_machine ": {
             "fileName": "",
@@ -131,6 +133,7 @@
     "S_PITCH": {
         "sec": "5",
         "fileName": "AB_Rebuttal.wav",
+        "smart_am_check": true,
         "reb_state": false,
         "qq_state": false,
         "answering_machine ": {
